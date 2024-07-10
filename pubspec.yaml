@@ -20,6 +20,8 @@ dependencies:
   cloud_firestore: ^4.16.0
   firebase_auth: ^4.19.2
   shared_preferences: ^2.2.0
+  kakao_flutter_sdk_user: ^1.9.3
+  flutter_dotenv: ^5.1.0
 
 dev_dependencies:
   flutter_test:
@@ -38,6 +40,7 @@ flutter:
     - assets/diamonds/
     - assets/hearts/
     - assets/spade/
+    - .env
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
