@@ -20,8 +20,6 @@ void main() async {
       options: DefaultFirebaseOptions.currentPlatform
   );
 
-  print("키 셋팅 ${dotenv.get("kako_login_key")}");
-
   KakaoSdk.init(
     nativeAppKey: dotenv.get("kako_login_key")
   );

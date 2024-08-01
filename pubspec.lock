@@ -230,6 +230,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.2"
+  flutter_naver_login:
+    dependency: "direct main"
+    description:
+      name: flutter_naver_login
+      sha256: "69d62da60e866b09894f2d632d7d1cb36eee17164b9e46e33d86ebee4b91cd42"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.8.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -297,7 +305,7 @@ packages:
     source: hosted
     version: "0.12.4"
   http:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: http
       sha256: "761a297c042deedc1ffbb156d6e2af13886bb305c2a343a4d972504cd67dd938"

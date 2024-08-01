@@ -26,6 +26,8 @@ if (flutterVersionName == null) {
 }
 
 def kakaoMapApiKey = localProperties.getProperty('kakao.login.key')
+def naverClientId = localProperties.getProperty('naver.client.id')
+def naverSecretKey = localProperties.getProperty('naver.client.secret')
 
 android {
     namespace "com.twproject.project_indian"
@@ -55,6 +57,8 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         manifestPlaceholders["kakaoMapApiKey"] = kakaoMapApiKey
+        manifestPlaceholders["naverClientId"] = naverClientId
+        manifestPlaceholders["naverSecretKey"] = naverSecretKey
     }
 
     buildTypes {

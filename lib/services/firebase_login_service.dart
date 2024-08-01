@@ -70,6 +70,6 @@ class FirebaseLoginService {
 
   Future<void> saveUserInfoWithUserDB(User user) async {
     final userDoc = _firestore.collection("user_db").doc(user.uid);
-    await userDoc.set(UserVo(email: user.email, nick_name: "야수", game_money: 0).toMap());
+    await userDoc.set(UserVo(email: user.email, nick_name: "야수").toMap());
   }
 }
